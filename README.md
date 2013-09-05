@@ -7,6 +7,6 @@ follows:
 ```sh
 cd $HOME
 sudo apt-get install -y git-core
-git clone git@github.com:branebrvl/setup-ubuntu-shell.git
+git clone https://github.com/branebrvl/setup-ubuntu-shell.git
 ./setup-ubuntu-shell/setup.sh   
 ```

@@ -31,5 +31,5 @@ if [ -d ./dotfiles/ ]; then
     mv dotfiles dotfiles.old
 fi
 
-git clone git@github.com:branebrvl/dotfiles.git
+git clone https://github.com/branebrvl/dotfiles.git
 ./dotfiles/setup.sh
