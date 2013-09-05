@@ -25,11 +25,18 @@ sudo apt-get install -y rlwrap
 # https://toolbelt.heroku.com/debian
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
+
 # git pull and install dotfiles as well
 cd $HOME
 if [ -d ./dotfiles/ ]; then
     mv dotfiles dotfiles.old
 fi
+
+# Install vim
+sudo apt-get install -y vim
+
+# Install zsh
+sudo apt-get install -y zsh
 
 git clone https://github.com/branebrvl/dotfiles.git
 ./dotfiles/setup.sh
